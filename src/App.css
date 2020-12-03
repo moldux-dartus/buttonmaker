@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(148, 148, 148);
 }
 
 .App-logo {
@@ -13,17 +14,19 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+#header {
+  color: rgb(116, 0, 0);
+}
+.App-content {
+  background-color: red;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(58, 58, 58);
 }
-
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +38,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#btn-container {
+  direction: flex;
+  margin: 4px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(58, 58, 58);
+}
+.btn{
+  color: white;
+  font-size: 24px;
+  border: 1px solid rgb(151, 151, 151);
+  margin: 1em;
+  background-color: black;
 }
